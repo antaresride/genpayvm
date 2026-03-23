@@ -14,9 +14,9 @@
 **PayVM** - a VM optmized for be a sandbox for smart contracts executions's payment.<br><br>
 See official documentation here:
 ##  Features
-*  **Auditable**. The language assembly and DSL are easy to read and write.
-*  **Fast**. 4 registers.
-*  **Strict**. Focused in payment made by Agents.
+*  **Auditable**: The language assembly and DSL are easy to read and write.
+*  **Fast**: 4 registers.
+*  **Strict**: Focused in payment made by Agents.
 
 ## Technical Details
 - **Language:** Rust
