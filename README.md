@@ -11,12 +11,12 @@
 </div>
 
 ## Description
-**PayVM** - a VM optmized for be a sandboxin for smart contracts's payments and.<br><br>
+**PayVM** - a VM optmized for be a sandbox for smart contracts executions's payment.<br><br>
 See official documentation here:
 ##  Features
-*  **Powerful**. The language syntax is easy to read and write.
-*  **Fast**. The compiler uses LLVM as a backend generating WASM, Binary and LLVM-IR.
-*  **Strict**. Analyzers and checkers will prevent most compile-time errors.
+*  **Auditable**. The language assembly and DSL are easy to read and write.
+*  **Fast**. 4 registers.
+*  **Strict**. Focused in payment made by Agents.
 
 ## Technical Details
 - **Language:** Rust
