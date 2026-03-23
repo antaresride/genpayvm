@@ -1,0 +1,38 @@
+[Latest Release]: https://github.com/antaresride/genpay/releases/latest
+<div align="center">
+  <picture>
+    <img src="https://github.com/antaresride/payvm/blob/main/assets/PayVMLogo.png" width="35%" />
+  </picture>
+  <div>
+    <h1>PayVM</h1>
+    <i></i>
+  </div>
+  <br/> 
+</div>
+
+## Description
+**PayVM** - a statically-typed compiling programming language for smart contracts and system tools. <br><br>
+See official documentation here: [Genpay Documentation](https://genpay-site.vercel.app/)
+##  Features
+*  **Powerful**. The language syntax is easy to read and write.
+*  **Fast**. The compiler uses LLVM as a backend generating WASM, Binary and LLVM-IR.
+*  **Strict**. Analyzers and checkers will prevent most compile-time errors.
+
+## Technical Details
+- **Language:** Rust
+- **Build Systems:** Cargo
+- **Backend:** LLVM and Cranelift
+- **Errors:** thiserror
+- **Error Reporting:** miette, colored
+- **Command Line Interface:** clap
+- **Arena Allocation:** bumpalo
+- **Memory Allocation:** mimalloc
+
+### Modular Design
+- `genpay` - Combines all submodules into the main process.
+- `lexer` - Converts source code into abstract data types (Tokens).
+- `parser` - Analyzes and converts tokens into an Abstract Syntax Tree.
+- `semantic` - Recursively checks the AST for type and principle matching.
+- `codegen` - Recursively compiles the AST.
+- `linker` -  Compiles the module to differents objects file and links it.
+- `syntax` - Implements a Single-Pass Zero-Copy Lexical Analyzer using Reference Counting.
