@@ -10,7 +10,7 @@ pub struct VM {
     program: Vec<Instruction>,
 }
 impl VM {
-    fn new(program: Vec<Instruction>) -> Self {
+    pub fn new(program: Vec<Instruction>) -> Self {
         Self {
             registers: [0; 4],
             pc: 0,
