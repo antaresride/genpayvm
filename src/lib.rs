@@ -17,7 +17,7 @@ impl VM {
             program,
         }
     }
-    fn run(&mut self) {
+   pub fn run(&mut self) {
         loop {
             if self.pc >= self.program.len() {
                 break;
