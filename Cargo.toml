@@ -1,6 +1,9 @@
 [package]
-name = "payvm"
+name = "genpayvm"
 version = "0.1.0"
 edition = "2024"
+
+[lib]
+crate-type = ["rlib"]
 
 [dependencies]
