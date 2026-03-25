@@ -1,4 +1,4 @@
-pub enum Instruction{
+pub enum Instruction {
     Load(usize, i32),
     Add(usize, usize),
     Print(usize),
@@ -17,7 +17,7 @@ impl VM {
             program,
         }
     }
-   pub fn run(&mut self) {
+    pub fn run(&mut self) {
         loop {
             if self.pc >= self.program.len() {
                 break;
