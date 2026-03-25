@@ -1,3 +1,5 @@
+use genpayvm::run; 
+
 fn main() {
     let program = vec![
         Instruction::Load(0, 10),
