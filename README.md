@@ -1,4 +1,4 @@
-[Latest Release]: https://github.com/antaresride/payvm/releases/latest
+[Latest Release]: https://github.com/antaresride/genpayvm/releases/latest
 <div align="center">
   <picture>
     <img src="https://github.com/antaresride/payvm/blob/main/assets/PayVMLogo.png" width="35%" />
@@ -11,7 +11,7 @@
 </div>
 
 ## Description
-**PayVM** - a VM optmized for smart contracts executions's payment.<br><br>
+**GenPayVM** - a VM optmized for smart contracts executions's payment.<br><br>
 See official documentation here:
 ##  Features
 *  **Auditable**: The language assembly and DSL are easy to read and write.
