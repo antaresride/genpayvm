@@ -4,7 +4,7 @@
     <img src="https://github.com/antaresride/payvm/blob/main/assets/PayVMLogo.png" width="35%" />
   </picture>
   <div>
-    <h1>PayVM</h1>
+    <h1>GenPayVM</h1>
     <i></i>
   </div>
   <br/> 
